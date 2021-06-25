@@ -1,0 +1,33 @@
+/********* TAG SELECTOR************/
+h1{
+  color: red;
+  font-size: 100px;
+}
+/* img{
+  background-color: red;
+} */
+img:hover{
+  background-color: gold;
+}
+
+
+/********* CLASS SELECTOR************/
+.potato{
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+}
+
+
+.circilar{
+  border-radius: 5px;
+}
+
+
+/********* ID SELECTOR************/
+
+/* #headings{
+  color: red;
+} */
