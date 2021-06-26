@@ -197,6 +197,10 @@ body{
 #portfolio{
   text-align: center;
   font-size: 20px;
+  background-color: #CE97B0;
+}
+.carousel-item{
+  padding: 7% 15%;
 
 }
 .portfolio-img{
