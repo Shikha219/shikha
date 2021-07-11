@@ -1,0 +1,85 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+img{
+  padding-bottom: 2%;
+}
+.row{
+  margin: 120px 300px;
+}
+p{
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 40%;
+}
+h1{
+  letter-spacing: 1px;
+  font-family: "Big Shoulders Display";
+  font-weight: 600;
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.col-1, .col-2, .col-3{
+  display: inline-block;
+  height: 396px;
+  width: 210px;
+  margin: 0;
+  padding: 50px;
+}
+.col-1{
+  border-radius: 3% 0 0 3%;
+  background-color: hsl(31, 77%, 52%);
+  position: relative;
+}
+.col-2{
+  background-color: hsl(184, 100%, 22%);
+  position: absolute;
+  left:608px;
+}
+.col-3{
+  border-radius: 0 3% 3% 0;
+  background-color: hsl(179, 100%, 13%);
+  position: absolute;
+  left: 908px;
+}
+button{
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 28px;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: none;
+}
+.btn-1{
+  border-radius: 28px solid hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+}
+.btn-2{
+  color: hsl(184, 100%, 22%);
+}
+.btn-3{
+  color: hsl(179, 100%, 13%);
+}
+a{
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 28px;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: none;
+  text-decoration: none;
+}
+@media screen(max-width:375px) {
+  .col-1, .col-2, .col-3{
+    display: block;
+    position: relative;
+    height: 396px;
+    width: 210px;
+    margin: 0;
+    padding: 50px;
+  }
+}
